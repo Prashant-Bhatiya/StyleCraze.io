@@ -19,7 +19,7 @@ let Header = () => {
           <span id="redline"></span>
           <div id="health">HEALTH & WELLNESS</div>
           <span id="redline"></span>
-          <div id="news">NEWS</div>
+          <div id="dryHairpage">DRYHAIR</div>
           <span id="redline"></span>
           <div id="tools">TOOLS</div>
           <span id="redline"></span>
@@ -36,28 +36,28 @@ let Makeup = () => {
 
    let ans =  content.innerHTML = `<div id="hover_box">
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/How-To-Plan-A-Pre-Wedding-Skin-Care-Regimen-Banner-267x300.jpg.webp"
         alt=""
       />
       <p>How To Plan A Pre-Wedding Skin Care Regimen</p>
     </div>
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2014/01/46-Top-5-VLCC-Bridal-Makeup-Packages-ss-267x300.jpg.webp"
         alt=""
       />
       <p>Top 5 VLCC Bridal Makeup Packages</p>
     </div>
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2012/12/How-To-Apply-Bridal-Eye-Makeup-Perfectly-1-267x300.jpg.webp"
         alt=""
       />
       <p>How To Apply Bridal Eye Makeup Perfectly?</p>
     </div>
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2012/10/Look-Perfect-For-Your-Special-Day-Bridal-Makeup-Tips-For-Dry-Skin-267x300.jpg.webp"
         alt=""
       />
@@ -66,14 +66,14 @@ let Makeup = () => {
       </p>
     </div>
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2015/08/1513_Top-10-Bridal-Makeup-Packages-In-India-267x300.jpg.webp"
         alt=""
       />
       <p>Top 10 Bridal Makeup Packages In India</p>
     </div>
     <div>
-      <img
+      <img 
         src="https://cdn2.stylecraze.com/wp-content/uploads/2013/09/750-Top-10-Lakme-Bridal-Salon-Packages-267x300.jpg.webp"
         alt=""
       />

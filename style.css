@@ -275,10 +275,16 @@ h3 {
   #k_pink_one,
   #k_overlap_pink_two {
     flex-direction: column;
+    /* border: 0.1px solid red; */
   }
   #overlap_left,
   #k_overlap_pink_left {
     width: 100%;
+  }
+  #k_overlap_pink_left > img {
+    border: 0.1px solid transparent;
+    width: 90%;
+    height: 100%;
   }
   #overlap_right,
   #k_overlap_pink_right {
@@ -286,8 +292,13 @@ h3 {
     margin: 0;
     margin-top: -20%;
     margin-bottom: 20px;
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 10px;
+  }
+  #k_overlap_pink_right > p {
+    border: 0.1px solid transparent;
+    font-size: small;
+    line-height: 20px;
   }
   #k_testimonials_div {
     display: grid;
@@ -379,6 +390,8 @@ h3 {
     grid-template-columns: repeat(1, 100%);
     align-items: center;
     margin: auto;
+    /* overflow: scroll; */
+    border: 0.1px solid transparent;
   }
   #k_testimonials_div img {
     width: 31%;
