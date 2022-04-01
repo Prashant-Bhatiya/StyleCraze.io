@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ayuveda Says</title>
     <link rel="shortcut icon" type="image/x-icon" href="https://i.playboard.app/p/AATXAJzeqClULfhlfbiKBd93LfUre-zyGkd-hs6M8xiH0EI/default.jpg" hreflang="en-in" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="./Css Files/header.css" />
+    <link rel="stylesheet" href="./Css Files/footer.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+    />.
   </head>
-<link rel="stylesheet" href="ayurveda.css">
+<link rel="stylesheet" href="./Css Files/ayurveda.css">
 </head>
 <body>
        <!-- Header Strts -->
@@ -95,100 +95,98 @@
 
 
 <script type="module">
-    // Ḥeader Starts
-    let Header_container = document.getElementById("header");
-  
-    import {
-      Header,
-      Makeup,
-      empty,
-      Haircare,
-      Skincare,
-      Hairstyles,
-      Health,
-    } from "./header.js";
-  
-    Header_container.innerHTML = Header();
-  
-    document.getElementById("makeup").onmouseenter = function () {
-      Makeup();
-    };
-    document.getElementById("haircare").onmouseenter = function () {
-      Haircare();
-    };
-    document.getElementById("skincare").onmouseenter = function () {
-      Skincare();
-    };
-    document.getElementById("hairstyles").onmouseenter = function () {
-      Hairstyles();
-    };
-    document.getElementById("health").onmouseenter = function () {
-      Health();
-    };
-    document.querySelector(".discrip").onmouseenter = function () {
-      empty();
-    };
-    document.getElementById("p_logo").onmouseenter = function () {
-      empty();
-    };
-  
-    // Ḥeader Ends
-  
-    // Footer start
-    let Footer_container = document.getElementById("footer");
-  
-    import Footer from "./footer.js";
-  
-    Footer_container.innerHTML = Footer();
-  
-    document.querySelector("#ED").addEventListener("click", () => {
-      window.location.href = "editorial.html";
-    });
-    document.querySelector("#TU").addEventListener("click", () => {
-      window.location.href = "terms_of_use.html";
-    });
-    // Footer Ends
-    
-    document.querySelector("#makeup").addEventListener("click", () => {
-        window.location.href = "MakeUp.html";
-    })
+  // Ḥeader Starts
+  let Header_container = document.getElementById("header");
 
-    document.querySelector("#haircare").addEventListener("click", () => {
-        window.location.href = "hairCare.html";
-    })
-    document.querySelector("#co_name").addEventListener("click", () => {
-        window.location.href = "index.html";
-    })
-    document.querySelector(".makeuptry").addEventListener("click", () => {
-        window.location.href = "D_Makeup.html";
-    })
-    document.querySelector(".OliveHair").addEventListener("click", () => {
-        window.location.href = "Olive.html";
-    })
-    document.querySelector("#dryHairpage").addEventListener("click", () => {
-        window.location.href = "dryHair.html";
-    })
+  import {
+    Header,
+    Makeup,
+    empty,
+    Haircare,
+    Skincare,
+    Hairstyles,
+    Health,
+  } from "./header.js"; 
 
-    document.querySelector("#searchbar").addEventListener("keypress",(ele)=>{
-        let value = document.querySelector("#searchbar").value;
-        if(ele.code === "Enter"){
-            if(value === "Lipstick"){
-                window.location.href = "Lipstick.html"
-            }
-            else if(value === "Bride"){
-                window.location.href = "bridal.html"
-            }
-            else if(value === "Ayurveda"){
-                window.location.href = "Ayurveda.html"
-            }
-            else if(value === "Mehandi"){
-                window.location.href = "mehandiDesigns.html"
-            }
-            else{
-                alert("Search Valid Details")
-                window.location.href = "index.html"
-            }
-        }
-    })
-  </script>
-  
+  Header_container.innerHTML = Header();
+
+  document.getElementById("makeup").onmouseenter = function () {
+    Makeup();
+  };
+  document.getElementById("haircare").onmouseenter = function () {
+    Haircare();
+  };
+  document.getElementById("skincare").onmouseenter = function () {
+    Skincare();
+  };
+  document.getElementById("hairstyles").onmouseenter = function () {
+    Hairstyles();
+  };
+  document.getElementById("health").onmouseenter = function () {
+    Health();
+  };
+  document.getElementById("k_container").onmouseenter = function () {
+    empty();
+  };
+  document.getElementById("p_logo").onmouseenter = function () {
+    empty();
+  };
+
+  // Ḥeader Ends
+
+  // Footer start
+  let Footer_container = document.getElementById("footer");
+
+  import Footer from "./footer.js";
+
+  Footer_container.innerHTML = Footer();
+
+  document.querySelector("#ED").addEventListener("click", () =>{
+      window.location.href = "editorial.html"
+  })
+  document.querySelector("#TU").addEventListener("click", () =>{
+      window.location.href = "terms_of_use.html"
+  })
+  // Footer Ends
+
+  document.querySelector("#makeup").addEventListener("click", () => {
+      window.location.href = "MakeUp.html";
+  })
+  document.querySelector("#haircare").addEventListener("click", () => {
+      window.location.href = "hairCare.html";
+  })
+  document.querySelector("#co_name").addEventListener("click", () => {
+      window.location.href = "index.html";
+  })
+  document.querySelector(".makeuptry").addEventListener("click", () => {
+      window.location.href = "D_Makeup.html";
+  })
+  document.querySelector(".OliveHair").addEventListener("click", () => {
+      window.location.href = "Olive.html";
+  })
+  document.querySelector("#dryHairpage").addEventListener("click", () => {
+      window.location.href = "dryHair.html";
+  })
+
+  document.querySelector("#searchbar").addEventListener("keypress",(ele)=>{
+      let value = document.querySelector("#searchbar").value;
+      if(ele.code === "Enter"){
+          if(value === "Lipstick"){
+              window.location.href = "Lipstick.html"
+          }
+          else if(value === "Bride"){
+              window.location.href = "bridal.html"
+          }
+          else if(value === "Ayurveda"){
+              window.location.href = "Ayurveda.html"
+          }
+          else if(value === "Mehandi"){
+              window.location.href = "mehandiDesigns.html"
+          }
+          else{
+              alert("Search Valid Details")
+              window.location.href = "index.html"
+          }
+      }
+  })
+</script>

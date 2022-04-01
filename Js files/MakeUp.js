@@ -34,3 +34,9 @@ const beautyTips_data = [];
         })
     }
     appendTips(beautyTips_data)
+
+    document.getElementById("hello eyeliner").addEventListener("click", newfn)
+
+    function newfn(){
+        window.location.href = "./eyeLiner.html"
+    }
