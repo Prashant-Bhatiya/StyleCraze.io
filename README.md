@@ -1,0 +1,1 @@
+StyleCraze is a global women's platform that aims to answer one question: what do women want? From health and wellness to lifestyle and beauty – we provide answers to women in all spheres to celebrate their unique needs and individuality. Our goal is to empower women from all walks of life and various intersections of identity to lead healthier and happier lives.
